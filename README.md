@@ -5,7 +5,7 @@ TernausNet
 
 U-Net with VGG11 Encoder Pre-Trained on ImageNet
 
-📌 Overview
+ Overview
 
 TernausNet is a deep learning architecture designed for image segmentation, especially effective in medical imaging and satellite imagery tasks. It is a modified version of the classical U-Net, where the encoder is replaced with a VGG11 network pre-trained on ImageNet.
 
@@ -15,7 +15,7 @@ This design improves feature extraction, accelerates convergence, and provides b
 
 TernausNet follows an Encoder–Decoder structure with skip connections, similar to U-Net, but with a stronger encoder.
 
-🔹 Encoder (VGG11 – Pre-Trained)
+Encoder (VGG11 – Pre-Trained)
 
 The encoder uses VGG11, a deep convolutional neural network trained on the ImageNet dataset.
 
@@ -32,7 +32,7 @@ Max-pooling layers reduce spatial resolution while increasing feature depth.
 Key Advantage:
 Using a pre-trained encoder helps the model generalize better and avoids overfitting.
 
-🔹 Decoder (U-Net Style)
+* Decoder (U-Net Style)
 
 The decoder gradually upsamples the feature maps to restore spatial resolution.
 
